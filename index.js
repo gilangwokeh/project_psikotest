@@ -135,9 +135,9 @@ const displayQuizResult = () => {
         if (!answeredCorrectly) {
             resultItem.classList.add("incorrect");
         }
-        resultItem.innerHTML = ` <div class="question"> Question ${i + 1} : ${quizData[i].question}<div>
+        resultItem.innerHTML = ` <div class="question"> Pertanyaan ${i + 1} : ${quizData[i].question}<div>
             <div class="user-answer">${userAnswer || `Tidak Pilih Soal`} </div>
-            <div class="correct-answer">Correct answer: ${correctAnswer}</div>`;
+            <div class="correct-answer">Jawaban Benar: ${correctAnswer}</div>`;
 
         quizResult.appendChild(resultItem);
     }
