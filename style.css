@@ -12,6 +12,7 @@ nav {
     height: 80px;
     width: 100%;
     background-color: #34495e;
+    z-index: 100;
 }
 
 label.logo {
@@ -216,6 +217,9 @@ nav #icon {
         font-size: 32px;
         padding-left: 60px;
     }
+    nav {
+        z-index: 100;
+    }
     nav ul{
         margin-right: 20px;
     }
@@ -225,6 +229,9 @@ nav #icon {
 }
 
 @media (max-width: 909px){
+    nav {
+        z-index: 100;
+    }
     nav #icon{
         display: block;
     }
