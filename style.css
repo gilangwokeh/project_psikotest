@@ -283,10 +283,10 @@ nav #icon {
         background-color: #222;
         color: red;
     }
-    .question-score {
-        font-size: 20px;
+    .question-nilai{
+        font-size: 15px;
     }
     .question-nilai-Merah{
-        font-size: 20px;
+        font-size: 15px;
     }
 }
